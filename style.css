@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #191A23;
+    background-color: white;
+}
+
+.bg-highlight {
+    background-color: #B9FF66;
+}
+
+.btn-highlight {
+    background-color: #B9FF66;
+    color: #191A23;
+    border: none;
+    font-weight: 500;
+}
+
+.btn-highlight:hover {
+    background-color: #a8e63d;
+}
+
+.custom-navbar {
+    position: static;
+    margin-top: 50px;
+    height: 68px;
+    /* border-bottom: 1px solid #e0e0e0; */
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 20px;
+    color: #191A23 !important;
+    padding: 20px 0 !important;
+}
+
+.btn-outline-dark {
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 14px;
+    padding: 20px 35px;
+}
+
+.hero-title {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 35px;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.services-badge {
+    background-color: #B9FF66;
+    color: #191A23;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 7px;
+    padding: 8px 12px;
+}
+
+.service-card {
+    border: 2px solid #191A23;
+    background-color: white;
+}
+
+.card-highlight-box {
+    background-color: #B9FF66;
+    color: #191A23;
+    border-radius: 7px;
+    padding: 0 7px;
+    font-size: 30px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.card-white-box {
+    background-color: white;
+    color: #191A23;
+    border-radius: 7px;
+    padding: 0 7px;
+    font-size: 30px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.logo-img {
+    max-width: 120px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.logos-wrapper {
+    align-items: center;
+}
+
+.process-block {
+    border: 2px solid #191A23;
+    background-color: #B9FF66;
+}
+
+.process-block-collapsed {
+    border: 2px solid #191A23;
+    background-color: #F3F3F3;
+}
+
+.process-number {
+    font-size: 60px;
+    font-weight: 500;
+    min-width: 80px;
+}
+
+.process-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.process-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.contact-block {
+    /* border: 2px solid #191A23; */
+    background-color: #F3F3F3;
+}
+
+
+
+.form-control {
+    border: 1px solid #191A23;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form-control::placeholder {
+    color: #999;
+}
+
+.form-label {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.form-check-input {
+    width: 28px;
+    height: 28px;
+    accent-color: #B9FF66;
+    border: 1px solid #191A23;
+}
+
+.form-check-input:checked {
+    background-color: #B9FF66;
+    border-color: #B9FF66;
+}
+
+.form-check-label {
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.footer-badge {
+    background-color: #B9FF66;
+    color: #191A23;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.flex-column {
+    flex-direction: row !important;
+}
+
+.footer-link {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.footer-link:hover {
+    color: #B9FF66;
+}
+
+.footer-social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.text-white{
+    border-radius: 2em 2em 0 0;
+}
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+}
+
+.footer-input {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 992px) {
+    .hero-title {
+        font-size: 43px;
+    }
+
+    .card-body{
+        margin-left: -40px;
+    }
+    
+    .services-badge {
+        font-size: 36px;
+    }
+
+    .process-number {
+        font-size: 30px;
+    }
+
+    .process-title {
+        font-size: 18px;
+        margin-left: -55px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .services-badge {
+        font-size: 28px;
+    }
+
+    .card-body{
+        margin-left: -40px;
+    }
+
+    .card-highlight-box,
+    .card-white-box {
+        font-size: 24px;
+    }
+
+    .service-card {
+        padding: 20px;
+    }
+
+    .process-number {
+        font-size: 24px;
+    }
+
+    .process-title {
+        font-size: 16px;
+        margin-left: -55px;
+    }
+
+    .contact-block {
+        padding: 30px;
+    }
+
+    .form-control {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .btn-lg {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    footer {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .footer-badge {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    .footer-link {
+        font-size: 16px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+
+    .footer-input {
+        font-size: 14px;
+        height: 48px;
+    }
+
+    .btn-highlight {
+        font-size: 16px;
+        height: 48px;
+    }
+}
